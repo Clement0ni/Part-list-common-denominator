@@ -1,0 +1,106 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #111827;
+}
+
+.main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 34px;
+}
+
+.subtitle {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.uploadBox {
+  border: 2px dashed #9ca3af;
+  border-radius: 16px;
+  padding: 28px;
+  text-align: center;
+  background: #f9fafb;
+  margin: 24px 0;
+}
+
+input[type="file"] { margin-top: 14px; }
+
+button {
+  border: none;
+  background: #111827;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.success {
+  background: #ecfdf5;
+  color: #065f46;
+  padding: 12px 14px;
+  border-radius: 10px;
+  margin: 16px 0;
+}
+
+.error {
+  background: #fef2f2;
+  color: #991b1b;
+  padding: 12px 14px;
+  border-radius: 10px;
+  margin: 16px 0;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  margin-top: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th, td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+th { background: #f3f4f6; }
+
+.small {
+  font-size: 13px;
+  color: #6b7280;
+}
