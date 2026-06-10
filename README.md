@@ -1,2 +1,3 @@
-# Part-list-common-denominator
-Part list common denominator
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+module.exports = nextConfig;
